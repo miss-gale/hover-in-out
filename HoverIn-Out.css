@@ -1,0 +1,25 @@
+*{
+     margin: 5px;
+     padding: 5px;
+     font-family: "Helvetica", sans-serif;
+     background-color: #b0afa6;
+     color: #1a1610;
+}
+
+body{
+     width: 700px;
+}
+
+h1{
+     color: #5f1f16;
+}
+
+p{
+     color: #372b1f;
+     width: 640px;
+}
+
+img{
+     height: 200px;
+     border: solid 3px #df9575;
+}

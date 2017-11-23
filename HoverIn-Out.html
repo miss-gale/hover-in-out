@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>Hover In/Out</title>
+          <link rel="stylesheet" type="text/css" href="HoverIn-Out.css">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script type="text/javascript">
+
+          $(document).ready(function(){
+
+               $('img').hover(function(){
+                    $(this).attr('temp', $(this).attr('src'));
+                    $(this).attr('src', $(this).attr('alt-src'));
+                    $(this).attr('alt-src', $(this).attr('temp'));
+               });
+          })
+          </script>
+</head>
+<body>
+     <h1>Hover In/Out</h1>
+     <p>Create a simple HTML page with 4 images of equal width and height. When the mouse hovers on an image, have that be replaced by another image (on the same position).  When the mouse hovers out of the image, bring the original image back.</p>
+     <img src="HIO-images/flowers1.png" alt-src="HIO-images/flowers1-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers2.png" alt-src="HIO-images/flowers2-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers3.png" alt-src="HIO-images/flowers3-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers4.png" alt-src="HIO-images/flowers4-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers5.png" alt-src="HIO-images/flowers5-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers6.png" alt-src="HIO-images/flowers6-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers7.png" alt-src="HIO-images/flowers7-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers8.png" alt-src="HIO-images/flowers8-alt.png" alt="Picture of flowers." temp="">
+     <img src="HIO-images/flowers9.png" alt-src="HIO-images/flowers9-alt.png" alt="Picture of flowers." temp="">
+</body>
+</html>
